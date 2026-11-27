@@ -171,3 +171,12 @@ html{scroll-padding-top:100px}body{font-size:16px;line-height:1.65;overflow-wrap
  .trust-item{grid-template-columns:minmax(0,1fr);gap:8px}
  .trust-item .icon{margin-top:0}
 }
+
+/* Engagement dauerhaft sichtbar statt als Disclosure */
+.engagement-static-panel{border-top:1px solid #cbd5d7;border-bottom:1px solid #cbd5d7;background:#ffffff66}
+.engagement-static-heading{padding:23px 25px 8px;line-height:1.4}
+.engagement-static-heading strong{display:block;font-size:1.1rem;font-weight:700}
+.engagement-static-heading small{display:block;margin-top:5px;color:#66777c;font-size:.875rem;line-height:1.55}
+.engagement-static-body{padding:8px 25px 28px}
+.engagement-static-body .engagement-grid{padding-top:8px}
+@media(max-width:760px){.engagement-static-heading{padding:22px 18px 7px}.engagement-static-body{padding:8px 18px 22px}}
